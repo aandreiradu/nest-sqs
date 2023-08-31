@@ -1,6 +1,5 @@
 import { plainToInstance } from 'class-transformer';
 import { IsNotEmpty, IsString, IsUrl, validateSync } from 'class-validator';
-
 type AWS_REGIONS =
   | 'eu-central-1'
   | 'eu-west-1'

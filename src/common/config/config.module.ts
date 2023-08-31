@@ -11,7 +11,6 @@ import { ConfigService } from './config.service';
       isGlobal: true,
       cache: true,
       validate,
-      envFilePath: [`.env.${process.env.NODE_ENV},.env`],
     }),
   ],
   providers: [ConfigService],
